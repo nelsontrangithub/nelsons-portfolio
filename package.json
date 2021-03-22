@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "nelson-tran-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Nelson Tran's portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nelson Tran",
   "dependencies": {
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
@@ -31,6 +31,8 @@
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-webpack-plugin": "^2.5.2",
     "gatsby-plugin-eslint": "^3.0.0",
     "prettier": "2.2.1",
