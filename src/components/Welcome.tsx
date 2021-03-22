@@ -19,8 +19,8 @@ const Welcome: React.FC = ({}) => {
           />
         </div>
         <div className="welcome-description">
-          Hi, my name is Nelson Tran. I am Full Stack Software Developer at CadMakers based in
-          Vancouver, British Columbia, Canada.
+          I am Full Stack Software Developer at CadMakers based in Vancouver, British Columbia,
+          Canada.
           <br />
           Check out my <AnchorLink href="#projects">side-projects</AnchorLink> below.
         </div>
