@@ -10,13 +10,13 @@ const Home: React.FC = () => (
     <Navbar />
     <Welcome />
     {/* <SEO title="Home" /> */}
-    <StaticImage
+    {/* <StaticImage
       src="../images/avatar.png"
       width={300}
       quality={100}
       alt="Nelson Tran"
       style={{ marginBottom: `1.45rem` }}
-    />
+    /> */}
   </Layout>
 );
 
