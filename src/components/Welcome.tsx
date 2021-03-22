@@ -19,7 +19,7 @@ const Welcome: React.FC = ({}) => {
           />
         </div>
         <div className="welcome-description">
-          I am Full Stack Software Developer at CadMakers based in Vancouver, British Columbia,
+          I am a Full Stack Software Developer at CadMakers based in Vancouver, British Columbia,
           Canada.
           <br />
           Check out my <AnchorLink href="#projects">side-projects</AnchorLink> below.
