@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nelson Tran`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Nelson Tran | Software Developer | Vancouver, B.C Canada`,
     author: `Nelson Tran`,
     email: `nelstran@gmail.com`
   },
@@ -17,6 +17,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
