@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/react-dom
+
+PATH: 
+  C:\Users\Nelson Tran\Downloads\cmder\vendor\bin;C:\Users\Nelson Tran\Downloads\cmder\vendor\git-for-windows\cmd;C:\Users\Nelson Tran\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Nelson Tran\Downloads\cmder\vendor\conemu-maximus5;C:\Users\Nelson Tran\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Livestreamer;C:\Users\Nelson Tran\Livestreamer;C:\Program Files (x86)\Common Files\Seagate\SnapAPI\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\Nelson Tran\AppData\Local\Microsoft\WindowsApps;C:\Users\Nelson Tran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nelson Tran\AppData\Local\GitHubDesktop\bin;C:\Users\Nelson Tran\.dotnet\tools;C:\Users\Nelson Tran\AppData\Local\Yarn\bin;C:\Users\Nelson Tran\AppData\Roaming\npm;C:\Users\Nelson Tran\AppData\Local\Microsoft\WindowsApps;C:\Users\Nelson Tran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nelson Tran\AppData\Local\GitHubDesktop\bin;C:\Users\Nelson Tran\.dotnet\tools;C:\Users\Nelson Tran\AppData\Local\Yarn\bin;C:\Users\Nelson Tran\AppData\Roaming\npm;C:\Users\Nelson Tran\.dotnet\tools;C:\Users\Nelson Tran\Downloads\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\Nelson Tran\Downloads\cmder\vendor\git-for-windows\usr\bin;C:\Users\Nelson Tran\Downloads\cmder
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Nelson Tran\Desktop\portfolio\portfolio-dev\node_modules\postcss-loader\dist'
+
+npm manifest: 
+  {
+    "name": "gatsby-starter-default",
+    "private": true,
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "version": "0.1.0",
+    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "dependencies": {
+      "gatsby": "^3.0.1",
+      "gatsby-plugin-gatsby-cloud": "^2.0.0",
+      "gatsby-plugin-image": "^1.0.0",
+      "gatsby-plugin-manifest": "^3.0.0",
+      "gatsby-plugin-offline": "^4.0.0",
+      "gatsby-plugin-react-helmet": "^4.0.0",
+      "gatsby-plugin-sharp": "^3.0.0",
+      "gatsby-source-filesystem": "^3.0.0",
+      "gatsby-transformer-sharp": "^3.0.0",
+      "prop-types": "^15.7.2",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-helmet": "^6.1.0"
+    },
+    "devDependencies": {
+      "prettier": "2.2.1"
+    },
+    "keywords": [
+      "gatsby"
+    ],
+    "license": "0BSD",
+    "scripts": {
+      "build": "gatsby build",
+      "develop": "gatsby develop",
+      "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    },
+    "bugs": {
+      "url": "https://github.com/gatsbyjs/gatsby/issues"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
