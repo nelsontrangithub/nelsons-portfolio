@@ -29,6 +29,6 @@ export const abouts: AboutType[] = [
   {
     input: "Nelson.skills",
     return:
-      '["C#", ".NET CORE", "JavaScript", "Typescript", "React", "Redux", "Sass", "webpack", "git"]',
+      '["C#", "ASP .NET CORE", "JavaScript", "TypeScript", "React", "Redux", "Sass", "webpack", "git"]',
   },
 ];
