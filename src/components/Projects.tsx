@@ -1,6 +1,7 @@
 import React from "react";
 import { projects, ProjectType } from "../constants/projects";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaExternalLinkAlt } from "@react-icons/all-files/fa/FaExternalLinkAlt";
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import "../styles/Projects.scss";
 
 const ProjectLinks: React.FC<Pick<ProjectType, "links">> = ({ links }) => {
@@ -8,10 +9,10 @@ const ProjectLinks: React.FC<Pick<ProjectType, "links">> = ({ links }) => {
   return (
     <div className="project-links">
       <a href={preview} rel="noopener" target="_blank" className="project-link">
-        Live Demo <FontAwesomeIcon icon="external-link-alt" />
+        Live Demo <FaExternalLinkAlt />
       </a>
       <a href={github} rel="noopener" target="_blank" className="project-link secondary">
-        <FontAwesomeIcon icon={["fab", "github"]} /> View Source
+        <FaGithub /> View Source
       </a>
     </div>
   );
