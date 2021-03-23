@@ -54,8 +54,8 @@ const ProjectCard: React.FC<ProjectType> = ({ description, image, title, skills,
 export const Projects = () => {
   return (
     <div className="projects-container">
-      {projects.map((proj) => (
-        <ProjectCard {...proj} />
+      {projects.map((proj, index) => (
+        <ProjectCard {...proj} key={index} />
       ))}
     </div>
   );
