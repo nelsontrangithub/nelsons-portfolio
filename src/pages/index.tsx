@@ -1,5 +1,7 @@
 import * as React from "react";
 import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
@@ -18,6 +20,8 @@ const Home: React.FC = () => (
     <h2 id="contact" className="section-title">
       Contact
     </h2>
+    <Contact />
+    <Footer />
   </Layout>
 );
 
