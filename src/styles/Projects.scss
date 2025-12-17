@@ -3,7 +3,7 @@
 
 .projects-container {
   margin: 0 auto;
-  font-family: "Camphor", Open Sans, Segoe UI, sans-serif;
+  font-family: "Inter", sans-serif;
 
   .project-card {
     position: relative;
@@ -84,7 +84,7 @@
           letter-spacing: 0.025em;
           text-decoration: none;
           transition: all 0.15s ease;
-          font-family: "Camphor", Open Sans, Segoe UI, sans-serif;
+          font-family: "Inter", sans-serif;
           font-size: 0.9em;
           font-weight: 600;
           box-sizing: border-box;
@@ -128,7 +128,7 @@
           padding: 8px;
           margin-right: 10px;
           margin-bottom: 10px;
-          font-family: "Camphor", Open Sans, Segoe UI, sans-serif;
+          font-family: "Inter", sans-serif;
           font-size: 0.85em;
           color: $grey;
         }

@@ -8,6 +8,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.0.0",
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^5.13.0",
     "gatsby-plugin-image": "^3.13.0",
