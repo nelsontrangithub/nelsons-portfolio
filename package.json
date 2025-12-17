@@ -4,6 +4,9 @@
   "description": "Nelson Tran's portfolio",
   "version": "0.1.0",
   "author": "Nelson Tran",
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@types/react": "^17.0.3",
