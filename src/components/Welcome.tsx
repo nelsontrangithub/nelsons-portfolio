@@ -19,8 +19,10 @@ const Welcome: React.FC = ({}) => {
           />
         </div>
         <div className="welcome-description">
-          I am a Full Stack Software Developer based in Vancouver, British Columbia, Canada.
-          Experienced in C#, .NET CORE, JavaScript, TypeScript, and ReactJS.
+          I am a senior software engineer based in Vancouver, British Columbia, specializing in
+          building high-quality, scalable web user interfaces. I have deep experience with
+          TypeScript, React, and modern JavaScript, and a strong background working with .NET-based
+          services to deliver performant, accessible, and maintainable applications.
           <br />
           <br />
           Check out my <AnchorLink href="#projects">side-projects</AnchorLink> below.
