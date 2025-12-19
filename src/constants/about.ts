@@ -11,7 +11,7 @@ export const abouts: AboutType[] = [
   {
     input: "Nelson.contactInfo",
     return:
-      '["<a href="mailto:nelstran@gmail.com">nelstran@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/nelsontran/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/nelsontrangithub">github</a>"]',
+      '["<a href="mailto:nelsontran@icloud.com">nelsontran@icloud.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/nelsontran/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/nelsontrangithub">github</a>"]',
   },
   {
     input: "Nelson.resume",

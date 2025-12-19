@@ -3,7 +3,7 @@ module.exports = {
     title: `Nelson Tran`,
     description: `Nelson Tran | Software Developer | Vancouver, B.C Canada`,
     author: `Nelson Tran`,
-    email: `nelstran@gmail.com`
+    email: `nelsontran@icloud.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

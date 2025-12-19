@@ -5,8 +5,8 @@ export const Contact: React.FC = () => {
   return (
     <div className="contact-links">
       <span>
-        <a rel="noopener" target="_blank" href="mailto:nelstran@gmail.com">
-          nelstran@gmail.com
+        <a rel="noopener" target="_blank" href="mailto:nelsontran@icloud.com">
+          nelsontran@icloud.com
         </a>
       </span>
       <span>
