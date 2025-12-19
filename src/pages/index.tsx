@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -10,6 +11,10 @@ import "../styles/Home.scss";
 
 const Home: React.FC = () => (
   <Layout>
+    <Helmet>
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <title>Nelson Tran | Senior Software Engineer</title>
+    </Helmet>
     <Navbar />
     <Welcome />
     <About />
