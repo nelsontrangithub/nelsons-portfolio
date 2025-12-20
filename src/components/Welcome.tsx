@@ -13,6 +13,7 @@ const Welcome: React.FC = ({}) => {
           <StaticImage
             src="../images/avatar.png"
             width={200}
+            height={200}
             quality={100}
             alt="Nelson Tran"
             style={{ borderRadius: "50%" }}
