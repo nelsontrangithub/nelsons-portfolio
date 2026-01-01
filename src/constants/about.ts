@@ -14,11 +14,6 @@ export const abouts: AboutType[] = [
       '["<a href="mailto:nelsontran@icloud.com">nelsontran@icloud.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/nelsontran/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/nelsontrangithub">github</a>"]',
   },
   {
-    input: "Nelson.resume",
-    return:
-      '"<a rel="noopener" href="https://www.dropbox.com/s/tl895spjaumpoq7/Nelson%20Tran_Resume.pdf?dl=0" target="_blank">Nelson.pdf</a>"',
-  },
-  {
     input: "Nelson.interests",
     return: '["coding", "basketball", "cooking", "hiking"]',
   },
